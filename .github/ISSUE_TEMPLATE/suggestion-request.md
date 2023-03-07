@@ -7,7 +7,8 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe within the 2-3 or more sentences to help support your suggestion details. Your suggestion request will be rejected if there's a lack of suggestion details (This will be accepted unless if you make your paragraphs go longer).
+**Does your feature request relate a problem?** 
+Please describe within the 2-3 or more sentences to help support your suggestion details. Your suggestion request will be rejected if there's a lack of suggestion details (This will be accepted unless if you make your paragraphs go longer).
 A clear and concise description of what the problem is. Ex. I'm always frustrated when […]
 
 **Describe the solution you'd like**
