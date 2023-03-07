@@ -1,4 +1,4 @@
-# Text Editor ([Demo](https://000693163.deployed.codepen.website/))
+# Text Editor ([Demo](https://monredo.github.io/text-editor/))
 An old-fashioned text editor for editing, formatting and styling text
 
 ![alt tag](https://user-images.githubusercontent.com/107286254/223297300-309a7e89-a2e6-46f0-a241-20bef83701d4.jpeg?raw=true)
