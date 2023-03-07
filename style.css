@@ -1,0 +1,164 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "TheSans", 'Lucida Grande', 'Lucida Sans Unicode', system-ui;
+}
+
+body {
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+li {
+    margin-left: 16px;
+}
+
+select option {
+    background: white;
+}
+
+a {
+    color: #308ce3;
+	cursor: pointer;
+    transition: .2s;
+}
+
+a:hover {
+    color: #359cfc;
+}
+
+a:active {
+    color: #2978c2;
+}
+
+::selection {
+    background-color: #308ce3;
+    color: white;
+}
+
+.container {
+    max-width: 751px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.toolbar {
+    padding: 16px;
+    background: #f9f9f9;
+}
+
+.toolbar .head {
+    display: flex;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.toolbar .head > input {
+    max-width: 100px;
+    padding: 6px 13px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    transition: .2s;
+}
+
+.toolbar .head > input:hover {
+    border-color: #b8b8b8;
+}
+
+.toolbar .head > input:focus {
+    border-color: #308ce3;
+    box-shadow: 0 0 0 2px #308ce366;
+}
+
+.toolbar .head select {
+    max-width: 140px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.toolbar .head select:hover {
+    background-color: #ebebeb;
+}
+
+.toolbar .head .colour {
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    padding: 0 13px;
+}
+
+.toolbar .head .colour span {
+    font-size: 13px;
+}
+
+.toolbar .head .colour input {
+    border: none;
+    padding: 0;
+    width: 21.5px;
+    height: 26px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.toolbar .head .colour input::-webkit-color-swatch {
+    width: 10px; height: 18px;
+    border: none;
+    border-radius: 50%;
+}
+
+.toolbar .btn-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.toolbar .btn-toolbar button {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    width: 35px; height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.toolbar .btn-toolbar button:hover {
+    background-color: #ebebeb;
+}
+
+#content {
+    padding: 16px;
+    outline: none;
+    height: 15em;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#content:empty:before {
+    content: attr(data-placeholder);
+    color: grey;
+}
+
+#show-code[data-active="true"] {
+	background-color: #ebebeb;
+}
